@@ -487,7 +487,8 @@ p {
 }
 
 #image-principal {
-  height: auto;
+  /* height: auto; */
+  height: 600px;
   width: 100%;
 }
 
@@ -511,5 +512,19 @@ p {
     height: 100%;
     width: 100%;
     object-fit: cover;
+  }
+
+  #table-adapt {
+    font-size: 11px;
+  }
+
+  table {
+    width: 100%;
+    height: auto;
+  }
+
+  #image-principal {
+    height: 500px;
+    width: 100%;
   }
 }
